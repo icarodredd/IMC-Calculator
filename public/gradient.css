@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.gradient-text {
+  animation: gradient 3s linear infinite;
+  font-size: 60pt;
+  background: -webkit-linear-gradient(
+    15deg,
+    #4474e4,
+    #d525e3,
+    #4474e4,
+    #d525e3
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+  from {
+    background-position: 100% 0%;
+  }
+  to {
+    background-position: 0% 0%;
+  }
+}
